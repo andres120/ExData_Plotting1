@@ -22,6 +22,6 @@ data_time <- strptime(paste(data$Date, data$Time), format = "%d/%m/%Y %H:%M:%S")
 #Plot 2
 png(filename=paste0(file_path,"plot2.png"))
 plot(tiempo, data$Global_active_power, type = "l", 
-     ylab = "Global Active POwer (kilowatts", 
+     ylab = "Global Active POwer (kilowatts)", 
      xlab = "", cex.lab = 0.9)
 dev.off()
